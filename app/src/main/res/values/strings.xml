@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Clase1DM</string>
+    <string name="saludo">Hola Clase !!!</string>
+    <string name="peso">Cual es Tu Peso</string>
+    <string name="altura">Cual es Tu Altura</string>
+    <string name="libra">Cantidad de Libras</string>
+    <string name="kilos">Cantidad de Kilos</string>
+    <string name="calcularimc">CALCULAR IMC</string>
+    <string name="resultado">Resultado</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="conversor">Conversor</string>
+
+</resources>

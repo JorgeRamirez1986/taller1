@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Conversor">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="333dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="76dp"
+        android:text="CONVERSOR DE KILOMETROS"
+        android:textColor="#9C27B0"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtKilometros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="168dp"
+        android:text="Kilometros"
+        android:textColor="#F5FFFFFF"
+        android:textColorHighlight="#E9FFFFFF"
+        android:textColorHint="#F7FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextKilometros"
+        android:layout_width="201dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="152dp"
+        android:ems="10"
+        android:hint="Cantidad de Kilometros"
+        android:inputType="textPersonName"
+        android:textColor="#FAFFFFFF"
+        android:textColorHighlight="#EEFFFFFF"
+        android:textColorHint="#60FFFFFF"
+        android:textColorLink="#F3FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/txtKilometros"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMillas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="84dp"
+        android:text="A MILLAS"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtKilometros" />
+
+    <Button
+        android:id="@+id/btnKilometros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="68dp"
+        android:text="A KILOMETROS"
+        app:layout_constraintStart_toEndOf="@+id/btnMillas"
+        app:layout_constraintTop_toBottomOf="@+id/editTextKilometros" />
+
+    <TextView
+        android:id="@+id/txtMillas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="52dp"
+        android:text="Millas"
+        android:textColor="#FAFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMillas" />
+
+    <EditText
+        android:id="@+id/editTextMillas"
+        android:layout_width="189dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Cantidad de Millas"
+        android:inputType="textPersonName"
+        android:textColor="#EEFFFFFF"
+        android:textColorHighlight="#F5FFFFFF"
+        android:textColorHint="#6AFFFFFF"
+        android:textColorLink="#F3FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/txtMillas"
+        app:layout_constraintTop_toBottomOf="@+id/btnKilometros" />
+</androidx.constraintlayout.widget.ConstraintLayout>
